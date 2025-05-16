@@ -51,7 +51,7 @@ export default function Charts() {
 
   
   return (
-    <section
+    <section id="analytics"
       className="w-full bg-[#050a13] min-h-screen px-8 py-20 bg-cover bg-center"
     >
       <motion.div

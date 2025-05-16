@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
   });
   return (
     <div className="bg-white">
-      <section
+      <section id="home"
         className="bg-cover bg-center h-[800px] flex items-center justify-center text-center text-white pt-[10px]"
         style={{
           backgroundImage: `url("/assets/background1.jpg")`

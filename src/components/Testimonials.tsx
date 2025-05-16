@@ -53,13 +53,13 @@ const TestimonialsCarousel: React.FC = () => {
     });
 
   return (
-    <div className="bg-[#4f738f]  py-24 px-4 flex items-center justify-center">
+    <div id="testimonials" className="bg-[#4f738f]  py-24 px-4 flex items-center justify-center">
       <div className="w-full max-w-6xl">
         <h2 ref={ref}
         style={{
               transition: "all 1.5s ease-in-out",
               opacity: inView ? 1 : 0,
-              transform: inView ? "translateX(0)" : "translateX(100px)",
+              transform: inView ? "translateY(0)" : "translateY(100px)",
             }}
         className="text-2xl font-bold text-white mb-10 pl-5">
           CLIENT TESTIMONIALS

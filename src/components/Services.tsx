@@ -56,7 +56,7 @@ export default function Services() {
 
   return (
     <section
-      id="features"
+      id="services"
       className="py-20 bg-[#050a13] px-5 text-center border-b border-[rgba(255,255,255,0.1)] text-white"
       // style={{
       //   backgroundImage: `url("/assets/background2.jpg")`,

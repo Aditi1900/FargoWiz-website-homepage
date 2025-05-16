@@ -40,55 +40,55 @@ className={`fixed top-0 w-full transition-colors duration-300 z-[99] py-[15px] p
         </div>
         <nav className="hidden md:flex gap-[30px]">
           <a
-            href="#features"
+            href="#home"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             Home
           </a>
           <a
-            href="#pricing"
+            href="#web"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             Web
           </a>
           <a
-            href="#contact"
+            href="#mobile"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             Mobile
           </a>
           <a
-            href="#contact"
+            href="#aiandml"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             AI & ML
           </a>
           <a
-            href="#contact"
+            href="#cloud"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             Cloud
           </a>
           <a
-            href="#contact"
+            href="#branding"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             Branding
           </a>
           <a
-            href="#contact"
+            href="#testimonials"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             Customers
           </a>
           <a
-            href="#contact"
+            href="#blog"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             Blog
           </a>
           <a
-            href="#contact"
+            href="#about"
             className="text-white no-underline transition-colors duration-300 hover:text-[rgb(25,132,255)]"
           >
             About Us
@@ -105,20 +105,69 @@ className={`fixed top-0 w-full transition-colors duration-300 z-[99] py-[15px] p
 
       {/* Mobile nav menu */}
       {isMobileMenuOpen && (
-        <div className=" absolute top-full right-0 h-screen w-[50%] bg-[rgb(18,18,51)] p-5 flex flex-col items-start md:hidden z-[98]">
+        <div className=" absolute top-full right-0 h-screen w-[50%] bg-[#050a13] p-5 flex flex-col items-start md:hidden z-[98]">
           <a
-            href="#features"
+            href="#home"
             className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Features
+            Home
           </a>
           <a
-            href="#pricing"
+            href="#web"
             className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Pricing
+            Web
+          </a>
+          <a
+            href="#mobile"
+            className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Mobile
+          </a>
+          <a
+            href="#aiandml"
+            className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            AI & ML
+          </a>
+          <a
+            href="#cloud"
+            className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Cloud
+          </a>
+          <a
+            href="#branding"
+            className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Branding
+          </a>
+          <a
+            href="#testimonials"
+            className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Customers
+          </a>
+          <a
+            href="#blog"
+            className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Blog
+          </a>
+          <a
+            href="#about"
+            className="text-white py-2 w-full transition-colors duration-300 hover:text-[rgb(25,132,255)]"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            About Us
           </a>
         </div>
       )}

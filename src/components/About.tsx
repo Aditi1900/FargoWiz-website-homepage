@@ -16,9 +16,9 @@ export default function About() {
   }
 
   return (
-    <section className="bg-[#4f738f] min-h-screen flex items-center">
+    <section id="about" className="bg-[#4f738f] min-h-screen flex items-center">
       <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-7xl mx-auto">
-        <div className="md:w-1/2 flex justify-start">
+        <div className="md:w-1/2 md:flex hidden justify-start">
           <div className="w-[650px] h-screen relative">
             <Image
               src="/assets/aboutimg.jpg"
@@ -29,7 +29,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="md:w-1/2 text-white space-y-6 pl-10 pr-24">
+        <div className="md:w-1/2 text-white space-y-6 py-10 pl-10 pr-24">
           <h1
             style={{
               transition: "all 1.5s ease-in-out",
